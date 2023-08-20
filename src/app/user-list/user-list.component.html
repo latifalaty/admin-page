@@ -1,0 +1,13 @@
+<html><body><h2>User List</h2>
+  <br><br><br><br>
+<ul>
+  <li class="d-block p-2 bg-success  " *ngFor="let user of users">{{ user }}</li>
+</ul>
+<br>
+<br>
+<p class="text-center">
+<button class="btn btn-success"  (click)="goToCreateUser()">Create User</button>
+</p>
+<br><br><br><br><br><br><br>
+</body>
+</html>

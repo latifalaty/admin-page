@@ -1,0 +1,32 @@
+.admin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #008000; /* Green background color */
+    padding: 20px;
+    
+    color: white; /* White text color */
+  }
+  
+  .logo {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white; /* White text color for menu links */
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: #f0f0f0; /* Lighter shade of white on hover */
+  }
+  

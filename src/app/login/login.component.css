@@ -1,0 +1,28 @@
+
+div {
+    background-image: url("/assets/img/admin.jpg");
+    color:#006600;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  }
+  
+  /* Header and links */
+  header {
+    background-color: #006600; /* Dark green */
+    color: #ffffff;
+    size:10px;
+    height:90px; /* White text */
+  }
+ 
+  
+
+  
+  /* Buttons */
+  .button {
+    background-color: #009900; /* Green button background */
+    color: #ffffff; /* White button text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
